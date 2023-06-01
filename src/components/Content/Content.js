@@ -10,7 +10,7 @@ export default function Content({ img, title, desc, id, btn_text }) {
   const reverse = id % 2 === 0;
 
   return (
-    <Container style={{}} >
+    <Container style={{marginTop:'80px'}} >
       <Row
         style={{ padding: "5px" }}
         className={`align-items-center text-center ${
