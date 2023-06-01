@@ -6,7 +6,6 @@ import "./HeroCard.css";
 
 export default function HeroCard() {
   return (
-    // <Container>
     <Stack
       className="hero-card xs={12} "
       style={{
@@ -18,13 +17,12 @@ export default function HeroCard() {
     >
       <div>
         <h1 className="hero-card-title">
-          We crush your competitors, goals, and sales records - without the B.S.
+          We Crush Your Competitors, Goals, And Sales Records - Without The B.S.
         </h1>
       </div>
       <div className="hero-card-button">
         <HeaderButton />
       </div>
     </Stack>
-    // </Container>
   );
 }
