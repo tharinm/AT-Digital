@@ -18,7 +18,7 @@ export default function HeroCard() {
     >
       <div>
         <h1 className="hero-card-title">
-          We Crush Your Competitors, Goals, And Sales Records - Without the B.S.
+          We Crush Your Competitors, Goals, And Sales Records - Without The B.S.
         </h1>
       </div>
       <div className="hero-card-button">
