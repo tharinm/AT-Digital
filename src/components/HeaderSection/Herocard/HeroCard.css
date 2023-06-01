@@ -10,13 +10,14 @@
 }
 
 .hero-card-title {
-  font-family: "inter";
+  font-family: "Inter";
   font-size: 48px;
   color: white;
   font-weight: 700;
   letter-spacing: -0.02em;
   line-height: 48px;
   text-align: left;
+  /* line-height: 36px; */
 }
 
 /* Media Query for Small Screens */
@@ -45,10 +46,10 @@
   }
 
   .hero-card-title {
-    font-size: 32px;
-    line-height: 32px;
+    font-size: 36px;
+    line-height: 36px;
     font-weight: 700;
     font-style: normal;
-    font-style: normal;
+  letter-spacing: -0.02em;
   }
 }
