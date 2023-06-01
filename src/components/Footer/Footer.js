@@ -60,7 +60,7 @@ export default function Footer() {
                   style={{ width: "238px", height: "36.11px" }}
                 />
               </div>
-              <div style={{ backgroundColor: "" }}>
+              <Row style={{}} xs={8} sm={9} md={9}>
                 <p
                   style={{
                     color: "white",
@@ -73,12 +73,12 @@ export default function Footer() {
                   }}
                 >
                   Your goal is our target. Not anything in between. We use
-                  <br></br>
+                  {/* <br></br> */}
                   online marketing platforms and tools to achieve single
-                  <br></br>
+                  {/* <br></br> */}
                   objective - your business results.
                 </p>
-              </div>
+              </Row>
             </Stack>
           </Col>
           <Col xs={12} sm={6} md={3} className="mb-4 ">
