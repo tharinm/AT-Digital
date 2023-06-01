@@ -1,0 +1,41 @@
+.hero-section {
+  position: relative;
+}
+
+.hero {
+  position: relative;
+  width: 100%;
+  height: 700px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  
+}
+
+.hero-card-wrapper {
+  position: absolute;
+  top: 70%;
+  left: 30%;
+  
+  transform: translate(-50%, -50%);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+  
+}
+
+@media (max-width: 768px) {
+  .hero {
+    background-size: contain;
+    /* background-position: center; */
+    width: "100%";
+  }
+
+  .hero-card-wrapper {
+    position: relative;
+    top: 190px;
+    left: auto;
+    transform: none;
+  }
+}

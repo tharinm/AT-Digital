@@ -1,0 +1,14 @@
+.img-mobile {
+  width: 275px;
+  height: 275px;
+}
+
+@media (min-width: 768px) {
+  .img-mobile {
+    width: 375px;
+    height: 375px;
+  }
+  .title {
+    font-size: "27px";
+  }
+}

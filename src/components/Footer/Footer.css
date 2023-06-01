@@ -1,0 +1,16 @@
+.footer-container {
+  background-color: #6b3cc9;
+  padding: 20px;
+  overflow: hidden !important;
+}
+
+
+/* CSS */
+body::-webkit-scrollbar {
+  width: 0em;
+
+}
+
+body::-webkit-scrollbar-thumb {
+ 
+}
