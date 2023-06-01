@@ -12,12 +12,12 @@ export default function HeroCard() {
       style={{
         background:
           "linear-gradient(256.73deg, #1CBDDD 27.86%, #4DCA79 100%), #FFFFFF",
-        marginBottom:'40px'
+        marginBottom: "40px",
+        padding: "24px 40px 32px",
       }}
-      
     >
       <div>
-        <h1 className="hero-card-title" >
+        <h1 className="hero-card-title">
           We crush your competitors, goals, and sales records - without the B.S.
         </h1>
       </div>

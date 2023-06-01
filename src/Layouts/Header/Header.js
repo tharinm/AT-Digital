@@ -4,7 +4,7 @@ import HeroSection from './HerosectionLayout/HeroSection'
 
 export default function Header() {
   return (
-    <div style={{ height: "100vh" }} className="overflow-hidden">
+    <div style={{ }} className="overflow-hidden">
       <NavbarMain />
       <HeroSection />
     </div>

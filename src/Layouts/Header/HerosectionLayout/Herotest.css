@@ -1,0 +1,33 @@
+.hero-section {
+  position: relative;
+}
+
+.background {
+  position: absolute;
+  /* top: 0; */
+  /* left: 0; */
+  /* width: 100%; */
+  /* height: 100%; */
+  position: relative;
+}
+
+.hero-card {
+  width: "100%";
+  /* padding: 24px, 40px, 32px, 40px; */
+}
+
+@media (min-width: 768px) {
+  .hero-cardm {
+    position: absolute;
+    top: 68%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    max-width: 630px;
+    height: auto;
+    padding: 24px 40px 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+  }
+}
