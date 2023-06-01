@@ -16,18 +16,23 @@
   /* padding: 24px, 40px, 32px, 40px; */
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
   .hero-cardm {
     position: absolute;
     top: 68%;
     left: 30%;
+
     transform: translate(-50%, -50%);
     max-width: 630px;
     height: auto;
+
     padding: 24px 40px 32px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     gap: 20px;
   }
+}
+
+@media (max-width: 768px) {
 }

@@ -40,8 +40,8 @@
 @media (max-width: 480px) {
   .hero-card {
     width: 100%;
+    max-width: 622px;
     padding: 24px 20px 32px;
-    
   }
 
   .hero-card-title {
