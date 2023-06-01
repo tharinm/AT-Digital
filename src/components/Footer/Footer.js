@@ -17,22 +17,18 @@ export default function Footer() {
     },
     {
       id: 3,
-      name: "Gatsby",
-    },
-    {
-      id: 4,
       name: "NextJS",
     },
     {
-      id: 5,
+      id: 4,
       name: "NodeJS",
     },
     {
-      id: 6,
+      id: 5,
       name: "GraphyQL",
     },
     {
-      id: 7,
+      id: 6,
       name: "Laravel",
     },
   ];
@@ -125,7 +121,7 @@ export default function Footer() {
                 color: "white",
               }}
             >
-              Our Technologies
+              Our Services
             </p>
             <div>
               {services.map((val, key) => {

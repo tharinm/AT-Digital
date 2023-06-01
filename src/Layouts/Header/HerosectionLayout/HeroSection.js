@@ -1,7 +1,6 @@
 import React from "react";
 import Row from "react-bootstrap/Row";
 import heroImage from "../../../assets/images/header.png";
-import blur from "../../../assets/images/blur.png";
 import "./HeroStyle.css";
 import HeroCard from "../../../components/HeaderSection/Herocard/HeroCard";
 import LazyLoad from "react-lazy-load";
